@@ -247,7 +247,9 @@ button.iconbtn { cursor: pointer; font: inherit; padding: 0; }
 .xp { margin-bottom: 1.9rem; }
 .xp__when { font-family: var(--font-mono); font-size: .76rem; color: var(--green); margin: 0 0 .3rem; }
 .xp__role { font-family: var(--font-display); font-weight: 700; letter-spacing: -0.02em; font-size: 1.14rem; margin: 0; }
-.xp__org { color: var(--ink-soft); margin: .15rem 0 .8rem; font-size: .95rem; }
+.xp__org { color: var(--ink-soft); margin: .15rem 0 .5rem; font-size: .95rem; }
+.xp__prog { color: var(--ink-soft); margin: 0 0 .8rem; font-size: .82rem; font-style: italic; }
+.xp__prog b { font-style: normal; font-weight: 600; color: var(--ink); }
 .bullets { margin: 0; padding-left: 0; list-style: none; }
 .bullets li { position: relative; padding-left: 1.3rem; margin-bottom: .5rem; color: var(--ink); }
 .bullets li::before { content: ""; position: absolute; left: .1rem; top: .62em; width: 6px; height: 6px; background: var(--green); border-radius: 50%; }
