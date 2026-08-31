@@ -145,7 +145,12 @@
             <span class="case__tag">Varejo · Estoque</span>
           </header>
           <p class="case__sub">Estoque atual × período anterior, por filial, coleção e faixa de preço.</p>
-          <div class="case__ph" aria-hidden="true">[ screenshot do dashboard ]</div>
+          <figure class="case__media">
+            <a href="assets/comparativo_pecas.png" target="_blank" rel="noopener">
+              <img class="case__img" src="assets/comparativo_pecas.png" alt="Dashboard Comparativo de Estoque: giro por coleção e faixa, estoque 2026 × 2025, com variação e mix de referências" loading="lazy" />
+            </a>
+            <figcaption>Dados sintéticos de uma loja fictícia (Passo Certo). 300 referências; estoque e giro comparados 26 × 25 por coleção e faixa.</figcaption>
+          </figure>
           <dl class="qa">
             <div><dt>Problema</dt><dd>Compras e diretoria sem uma visão única de como o estoque evoluiu entre períodos e onde ele está concentrado.</dd></div>
             <div><dt>Dados</dt><dd>Saldos e vendas por filial, modelo e período, extraídos em SQL Server e modelados em estrela (dados sintéticos de varejo).</dd></div>
@@ -153,7 +158,6 @@
             <div><dt>Decisão</dt><dd>Reposição e remanejamento entre CD e filiais e ajuste da compra por coleção.</dd></div>
           </dl>
           <ul class="chips chips--sm"><li>Power BI</li><li>DAX</li><li>SQL Server</li><li>Modelo estrela</li></ul>
-          <p class="case__links"><span class="soon">em produção — preparando a versão com dados sintéticos (Passo Certo)</span></p>
         </article>
 
         <article class="card case">
