@@ -259,6 +259,8 @@ button.iconbtn { cursor: pointer; font: inherit; padding: 0; }
 .edu__when { font-family: var(--font-mono); font-size: .74rem; color: var(--green); margin: 0 0 .25rem; }
 .edu__title { font-family: var(--font-display); font-weight: 700; letter-spacing: -0.02em; font-size: 1.1rem; margin: 0; }
 .edu__org { color: var(--ink-soft); margin: .15rem 0 0; font-size: .95rem; }
+.edu__verify { font-family: var(--font-mono); font-size: .72rem; color: var(--green); border-bottom: 1px solid var(--green-dk); padding-bottom: 1px; white-space: nowrap; }
+.edu__verify:hover { color: var(--green-dk2); border-color: var(--green-dk2); }
 
 /* ---------- Contato ---------- */
 .contato__q { max-width: 26ch; }
