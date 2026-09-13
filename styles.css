@@ -235,6 +235,8 @@ button.iconbtn { cursor: pointer; font: inherit; padding: 0; }
 .qa { display: grid; grid-template-columns: 1fr 1fr; gap: .9rem 1.6rem; margin: 0 0 1.3rem; }
 .qa dt { font-family: var(--font-mono); font-size: .7rem; text-transform: uppercase; letter-spacing: .04em; color: var(--green); margin-bottom: .2rem; }
 .qa dd { margin: 0; font-size: .94rem; color: var(--ink); line-height: 1.45; }
+.case__insight { margin: 0 0 1.3rem; padding: .7rem .9rem; border-left: 3px solid var(--green); background: var(--green-sf); border-radius: 6px; font-size: .9rem; color: var(--ink); line-height: 1.45; }
+.case__insight b { color: var(--green-dk2); }
 .case__links { font-family: var(--font-mono); font-size: .82rem; margin: 0; }
 .case__links a { color: var(--green); border-bottom: 1px solid var(--green-dk); padding-bottom: 1px; }
 .case__links a:hover { color: var(--green-dk2); }

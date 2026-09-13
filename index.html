@@ -38,7 +38,7 @@
     "name": "Willian Barone",
     "url": "https://willian-barone.vercel.app/",
     "image": "https://willian-barone.vercel.app/assets/og-cover.jpg",
-    "jobTitle": "Analista de Dados & BI",
+    "jobTitle": ["Analista de Dados", "Analista de BI", "Data Analyst"],
     "description": "Analista de Dados & BI com atuação em Planejamento Comercial, do SQL à decisão de negócio.",
     "email": "willian.barone@hotmail.com",
     "address": {
@@ -95,12 +95,12 @@
           <div class="hero__id">
             <p class="eyebrow" data-node>Rio de Janeiro · Brasil · Presencial, híbrido ou remoto</p>
             <h1 class="hero__name">Willian Barone</h1>
-            <p class="hero__role">Analista de Dados &amp; BI · Planejamento Comercial</p>
+            <p class="hero__role">Analista de Dados &amp; BI · Varejo</p>
           </div>
         </div>
 
         <div class="hero__about">
-          <p>Mais de 8 anos em planejamento, BI e análise de dados. Trabalho o ciclo completo, do SQL (SQL Server, Databricks, PostgreSQL) e ETL à modelagem estrela e aos dashboards em Power BI (DAX), para responder o que a diretoria precisa decidir: <strong>o que comprar, o que repor e o que priorizar</strong>.</p>
+          <p>Mais de 8 anos em planejamento, BI e análise de dados. Meu trabalho é transformar dado em decisão de negócio. Trabalho o ciclo completo, do SQL (SQL Server, Databricks, PostgreSQL) e ETL à modelagem estrela e aos dashboards em Power BI (DAX), para responder o que a diretoria precisa decidir: <strong>o que comprar, o que repor e o que priorizar</strong>.</p>
           <p>Meu foco é a decisão por trás do número. Trabalho entre o SQL e a diretoria e entrego o indicador já com a leitura: o que ele mostra, por que importa e qual decisão sustenta. Antes de publicar, fecho os números com as áreas e documento cada medida, porque um KPI em que ninguém confia não vira decisão.</p>
         </div>
 
@@ -150,11 +150,11 @@
       <section class="block" id="metodo">
         <p class="eyebrow" data-node>COMO EU PENSO</p>
         <h2 class="block__title">A ferramenta é meio. A decisão é o produto.</h2>
-        <p class="block__lead">Um dashboard que ninguém usa é custo, não valor. Antes de abrir o Power BI, eu respondo quatro perguntas — e cada case abaixo responde essas mesmas quatro.</p>
+        <p class="block__lead">Um dashboard que ninguém usa é custo, não valor. Antes de abrir o Power BI, eu respondo quatro perguntas, e cada case abaixo responde as mesmas quatro.</p>
         <ol class="qs">
-          <li class="q"><span class="q__k">Problema</span><p>Qual problema de negócio isso resolve?</p></li>
+          <li class="q"><span class="q__k">Pergunta</span><p>Que pergunta de negócio isso responde?</p></li>
           <li class="q"><span class="q__k">Dados</span><p>De onde vieram e como foram tratados?</p></li>
-          <li class="q"><span class="q__k">Indicador</span><p>Por que esses indicadores, e não outros?</p></li>
+          <li class="q"><span class="q__k">Análise</span><p>Que padrão os dados revelam?</p></li>
           <li class="q"><span class="q__k">Decisão</span><p>Que decisão a empresa toma com isso?</p></li>
         </ol>
       </section>
@@ -181,11 +181,12 @@
             <figcaption>Dados sintéticos de uma loja fictícia (Passo Certo). A lógica é a mesma de produção.</figcaption>
           </figure>
           <dl class="qa">
-            <div><dt>Problema</dt><dd>Milhares de SKUs, verba de compra finita: onde investir e o que sair de linha?</dd></div>
-            <div><dt>Dados</dt><dd>Base de vendas + estoque (dados sintéticos de varejo), tratada em SQL e modelada em estrela.</dd></div>
-            <div><dt>Indicadores</dt><dd>Markup, giro, cobertura e a classificação 3×3 que posiciona cada produto.</dd></div>
-            <div><dt>Decisão</dt><dd>Sortimento e compra por categoria: reforçar as estrelas, girar os parados.</dd></div>
+            <div><dt>Pergunta</dt><dd>"Vende bem" e "dá lucro" são a mesma coisa? Com verba de compra finita, decidir no olho gera compra errada e capital preso em estoque.</dd></div>
+            <div><dt>Dados</dt><dd>Vendas e estoque por SKU (dados sintéticos de varejo), tratados em SQL e modelados em estrela; markup e giro calculados em DAX.</dd></div>
+            <div><dt>Análise</dt><dd>Classifiquei cada produto num 3×3 de markup × giro e cruzei com cobertura. Boa parte do faturamento vinha de itens de giro alto e margem baixa, que dão volume mas não sustentam o resultado.</dd></div>
+            <div><dt>Decisão</dt><dd>Reforçar as estrelas (alto markup e giro), liquidar o quadrante parado e renegociar custo ou preço dos campeões de volume com margem fraca.</dd></div>
           </dl>
+          <p class="case__insight"><b>O que os dados mostraram:</b> girar mais nem sempre é ganhar mais; o mix escondia margem.</p>
           <ul class="chips chips--sm"><li>Power BI</li><li>DAX</li><li>SQL Server</li><li>Modelo estrela</li></ul>
           <p class="case__links"><a href="https://medium.com/@willian.barone/como-eu-decido-o-que-comprar-numa-loja-com-milhares-de-refer%C3%AAncias-2575f41e4698" target="_blank" rel="noopener">ler o making-of no Medium ↗</a></p>
         </article>
@@ -207,11 +208,12 @@
             <figcaption>Dados sintéticos de uma loja fictícia (Passo Certo). 300 referências; estoque e giro comparados 26 × 25 por coleção e faixa, em peças e em R$.</figcaption>
           </figure>
           <dl class="qa">
-            <div><dt>Problema</dt><dd>Compras e diretoria sem uma visão única de como o estoque evoluiu entre períodos e onde ele está concentrado.</dd></div>
+            <div><dt>Pergunta</dt><dd>O estoque cresceu ou encolheu frente ao ano anterior, e onde ele está concentrado? Compras e diretoria decidiam sem uma visão única.</dd></div>
             <div><dt>Dados</dt><dd>Saldos e vendas por filial, modelo e período, extraídos em SQL Server e modelados em estrela (dados sintéticos de varejo).</dd></div>
-            <div><dt>Indicadores</dt><dd>Variação de saldo período a período, cobertura, faixa de preço e concentração por filial e coleção.</dd></div>
-            <div><dt>Decisão</dt><dd>Reposição e remanejamento entre CD e filiais e ajuste da compra por coleção.</dd></div>
+            <div><dt>Análise</dt><dd>Comparei saldo período a período cruzando cobertura, faixa de preço e coleção. A variação não estava espalhada: concentrava-se em poucas coleções e filiais.</dd></div>
+            <div><dt>Decisão</dt><dd>Reposição e remanejamento entre CD e filiais e ajuste da compra nas coleções que puxavam o desvio.</dd></div>
           </dl>
+          <p class="case__insight"><b>O que os dados mostraram:</b> o descontrole de estoque tinha poucos culpados, não era o catálogo inteiro.</p>
           <ul class="chips chips--sm"><li>Power BI</li><li>DAX</li><li>SQL Server</li><li>Modelo estrela</li></ul>
           <p class="case__links"><a href="https://medium.com/@willian.barone/o-que-o-estoque-de-um-ano-para-o-outro-me-conta-52bd38580082" target="_blank" rel="noopener">ler o making-of no Medium ↗</a></p>
         </article>
@@ -229,11 +231,12 @@
             <figcaption>Projeto XHospital (base pública de um hospital fictício). KPIs de internação, faturamento por convênio e perfil dos pacientes.</figcaption>
           </figure>
           <dl class="qa">
-            <div><dt>Problema</dt><dd>Diretoria sem visão clara do setor de internação, presa a relatórios do ERP.</dd></div>
+            <div><dt>Pergunta</dt><dd>O que prende leito e o que sustenta o faturamento na internação? A diretoria enxergava só o que o ERP entregava.</dd></div>
             <div><dt>Dados</dt><dd>6 tabelas no SQL Server, unidas por JOIN e exportadas para o Power BI.</dd></div>
-            <div><dt>Indicadores</dt><dd>Admissões e altas, taxa de mortalidade, TMP (tempo médio de permanência) e faturamento por convênio.</dd></div>
+            <div><dt>Análise</dt><dd>Cruzei admissões, altas, mortalidade e TMP com o faturamento por convênio. O tempo de permanência pesava no custo tanto quanto o volume de internações.</dd></div>
             <div><dt>Decisão</dt><dd>Gestão de leitos, perfil de internação e priorização dos convênios de maior retorno.</dd></div>
           </dl>
+          <p class="case__insight"><b>O que os dados mostraram:</b> reduzir permanência liberava mais leito do que só controlar admissões.</p>
           <ul class="chips chips--sm"><li>SQL Server</li><li>Power BI</li><li>JOIN</li></ul>
           <p class="case__links"><a href="https://medium.com/@willian.barone/projeto-de-an%C3%A1lise-hospitalar-sql-power-bi-3a39f4897355" target="_blank" rel="noopener">ler o passo a passo no Medium ↗</a></p>
         </article>
